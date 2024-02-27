@@ -1,0 +1,16 @@
+{
+    "name": "saniori/farm-manager",
+    "description": "Oxem test",
+    "autoload": {
+        "psr-4": {
+            "Saniori\\FarmManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saniori",
+            "email": "rodion2992@gmail.com"
+        }
+    ],
+    "require": {}
+}
