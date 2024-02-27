@@ -2,6 +2,6 @@
 
 PHP 8.2
 
-```php
+```bash
 php8.2 cmd/main.php
 ```
