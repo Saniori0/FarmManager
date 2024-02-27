@@ -44,8 +44,6 @@ final class Farm
 
     }
 
-    public function animalsQuantity(){}
-
     public function getAnimalsByType(string $type): array
     {
 
