@@ -27,7 +27,7 @@ final class Farm
     public function collectWeek(): array
     {
 
-        for ($i = 0; $i < 6; $i++) {
+        for ($i = 0; $i < 7; $i++) {
 
             $harvest[$i] = self::collectDay();
 
@@ -43,6 +43,8 @@ final class Farm
         return $this->animals;
 
     }
+
+    public function animalsQuantity(){}
 
     public function getAnimalsByType(string $type): array
     {
